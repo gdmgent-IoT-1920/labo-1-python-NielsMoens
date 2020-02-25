@@ -8,11 +8,12 @@ def lingo():
     # genarate random num and split it 
     numgen = random.randint(1000,10000)
     splitng = [int(y) for y in str(numgen)]
-    print('genarated number',splitng)
+    # print('genarated number',splitng)
     
     # split quessed number
     splitqn=[int(x) for x in str(guessNum)]
-    print('guessed number',splitqn)
+    # print('guessed number',splitqn)
+    
     #init counters
     gameCount=0
     while splitqn!=splitng:
