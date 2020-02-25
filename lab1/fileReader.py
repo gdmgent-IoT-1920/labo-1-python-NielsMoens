@@ -1,5 +1,5 @@
 #Open the file
-files= open("E:\\git\\IoT\\oefeningen\\les1\\namen.txt")
+files= open("E:\\git\\labo-1-python-NielsMoens\\lab1\\namen.txt")
 #read the file
 txt = files.read()
 #split the file into fileObject
